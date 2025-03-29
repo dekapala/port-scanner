@@ -26,21 +26,28 @@ No external libraries are required.
 ```bash
 git clone https://github.com/your-username/port-scanner.git
 cd port-scanner
+```
 
-Run the script:
+2. Run the script:
 
+```bash
 python scanner.py
+```
 
-Follow the on-screen instructions:
+3. Follow the on-screen instructions:
 
+```bash
 Enter target IP or domain: scanme.nmap.org
 Start port: 20
 End port: 80
+```
 
 Example Output
 
+```bash
 Port 22 is OPEN
 Port 80 is OPEN
+```
 
 Author
 Gabriel palazzini
